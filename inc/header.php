@@ -24,4 +24,4 @@
   <title><?= $page_title." | ".WEBSITE_TITLE ?></title>
 </head>
 
-<body class="dark">
+<body>

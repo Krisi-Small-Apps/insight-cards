@@ -1,3 +1,5 @@
+/* ------------- starts globals ------------- */
+
 body {
   background-color: #efefef;
 }
@@ -6,7 +8,15 @@ body {
   text-shadow: 0 0 4px #242424;
 }
 
-/* register.php */
+:root {
+  --primary-color: #ff0000;
+}
+
+/* ------------- ends globals ------------- */
+
+
+/* ------------- starts register ------------- */
+
 .register-bg-screen {
   width: 100%;
   height: calc(100vh - 80px);
@@ -14,6 +24,11 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+/* ------------- ends register ------------- */
+
+
+/* ------------- starts login ------------- */
 
 .login-bg-screen {
   width: 100%;
@@ -23,7 +38,11 @@ body {
   background-position: center center;
 }
 
-/* navbar */
+/* ------------- ends login ------------- */
+
+
+/* ------------- starts navbar ------------- */
+
 .navbar-items {
   display: flex;
   justify-content: space-between;
@@ -59,3 +78,38 @@ body {
     width: 100%;
   }
 }
+
+/* ------------- ends navbar ------------- */
+
+
+/* ------------- starts create card ------------- */
+
+.box {
+  position: fixed;
+  background-color: var(--primary-color);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.box-1 {
+  left: -100px;
+  top: -100px;
+}
+.box-2 {
+  right: -100px;
+  top: -100px;
+}
+.box-3 {
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 800px;
+}
+.create-card-bg-screen {
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+/* ------------- ends create card ------------- */

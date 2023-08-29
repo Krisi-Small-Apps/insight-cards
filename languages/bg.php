@@ -13,3 +13,7 @@ define("PASSWORD", "Парола");
 define("ENTER_A_STRONG_PASSWORD", "Въведете силна парола");
 define("CONFIRM_PASSWORD", "Потвърдете Паролата");
 define("CONFIRM_THE_PASSWORD", "Потвърдете паролата тук");
+define("CREATE_CARD", "Създаване на карта");
+define("SHORT_DESCRIPTION", "Кратко Описание");
+define("DESCRIPTION", "Описание");
+define("TITLE", "Заглавие");

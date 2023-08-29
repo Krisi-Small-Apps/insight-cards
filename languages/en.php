@@ -13,3 +13,7 @@ define("PASSWORD", "Password");
 define("ENTER_A_STRONG_PASSWORD", "Enter a strong password");
 define("CONFIRM_PASSWORD", "Comfirm Password");
 define("CONFIRM_THE_PASSWORD", "Confirm the password");
+define("CREATE_CARD", "Create Card");
+define("SHORT_DESCRIPTION", "Short Description");
+define("DESCRIPTION", "Description");
+define("TITLE", "Title");
